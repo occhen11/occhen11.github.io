@@ -8,11 +8,17 @@ body {
     margin-right: auto;
 }
 
-img{
+#main-logo{
     z-index:2;
     position:absolute;
     margin: -99px 0px 0px 0px
 }
+
+/*#home-img {
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+}*/
 
 p {
     font-family: Lekton, Lucida Sans Typewriter, Consolas, monospace;
@@ -63,6 +69,10 @@ h6 {
 
 #projects:hover {
     background-color: #FF0066;
+}
+
+#resume:hover {
+    background-color: #00BFFF;
 }
 
 #contact:hover {
