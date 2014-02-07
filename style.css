@@ -1,0 +1,117 @@
+body {
+   font-family:Lekton, monospace;
+    margin: 0px 150px 0px 150px;
+    position:absolute;
+}
+
+img{
+    z-index:2;
+    position:absolute;
+    margin: -99px 0px 0px 0px
+}
+
+p {
+    font-family: Lekton, Lucida Sans Typewriter, Consolas, monospace;
+    font-size: 11pt;
+    margin: 0px 10px 0px 10px;
+    line-height: 1.1;
+}
+
+h1 {
+    margin: 10px 0px 10px 0px;
+    font-family: Bookends, Helvetica, sans-serif;
+    padding-left:30px;
+    clear:right;
+    font-size:37.5pt;
+    text-align:center;
+    letter-spacing:3px;
+}
+
+h3 {
+    font-family: Roboto, Consolas, Monaco, Lucida Sans Typewriter, monospace;
+    margin: 5px 00px 30px 20px;
+    text-align: right;
+    letter-spacing:2px;
+    font-size:13pt;
+}
+
+h6 {
+    margin-right:2px;
+    float:right;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 4px;
+    padding-left:8px;
+    padding-right:8px;
+    margin-bottom:0px;
+    z-index:-10;
+}
+
+#home:hover {
+    background-color: #00FFBF;
+}
+
+#about:hover {
+    background-color: #5500FF;
+}
+
+#projects:hover {
+    background-color: #FF0066;
+}
+
+#contact:hover {
+    background-color: #80FF00;
+}
+
+h6 a {
+    text-decoration: none;
+}
+
+h6 a:visited, a:link {
+    color: #FFFFFF;
+}
+
+div {
+    clear:both;
+    border-bottom:2px solid #000000; 
+    border-top: 2px solid #000000;
+    margin-left:103px;
+}
+
+ul li {
+    line-height:1;
+    font-size:10pt;
+}
+
+li a {
+    text-decoration:none;
+    color: #FCBD35;
+}
+
+li a:link {
+    color: #FCBD35;
+}
+
+li a:visited {
+    color: #D4D4D4;
+}
+
+@font-face{
+    font-family: Bookends;
+    src:url(fonts/BookendsWithAccents.ttf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family: Lekton;
+    src:url(fonts/Lekton-Regular.ttf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family: Roboto;
+    src:url(fonts/Roboto-CondensedItalic.ttf);
+    font-weight:normal;
+}
