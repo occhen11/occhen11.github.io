@@ -14,11 +14,26 @@ body {
     margin: -99px 0px 0px 0px
 }
 
-/*#home-img {
+#home-img {
     margin-left:auto;
     margin-right:auto;
-    width:auto;
-}*/
+    display:block;
+    margin-bottom: 40px;
+}
+
+#footer {
+    width: 800px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid #000000;
+    padding-top: 7px;
+    font-size: 8pt;
+    color:#878787;
+    font-family: Lekton, monospace;
+    text-align:right;
+        
+}
 
 p {
     font-family: Lekton, Lucida Sans Typewriter, Consolas, monospace;
@@ -43,6 +58,10 @@ h3 {
     text-align: right;
     letter-spacing:2px;
     font-size:13pt;
+}
+
+h5 {
+    text-align: center;
 }
 
 h6 {
@@ -94,7 +113,7 @@ div div {
     margin-left:103px;
 }
 
-ul li {
+div ul li {
     line-height:1;
     font-size:10pt;
 }
@@ -110,6 +129,28 @@ li a:link {
 
 li a:visited {
     color: #D4D4D4;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr h5 {
+    margin: 10px 0px 0px 0px;
+    font-size: 14px;
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+
+td {
+    font-size: 13px;
+}
+
+td ul li {
+    line-height:1;
+    font-size:10pt;
+    list-style-type: square;
 }
 
 @font-face{
