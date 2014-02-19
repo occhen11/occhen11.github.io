@@ -117,16 +117,16 @@ div ul li {
     font-size:10pt;
 }
 
-li a {
+p a, li a {
     text-decoration:none;
     color: #FCBD35;
 }
 
-li a:link {
+p a:link, li a:link {
     color: #FCBD35;
 }
 
-li a:visited {
+p a:visited, li a:visited {
     color: #D4D4D4;
 }
 
