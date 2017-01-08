@@ -1,0 +1,106 @@
+.main {
+    margin-bottom: 10%;
+}
+
+section {
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+.entry {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.sectionTitle {
+    padding: 10px;
+    color:#edf5fd;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color:black;
+}
+
+#work .sectionTitle {
+/*    color: #5b8296;*/
+    color: #01579B;
+    border-bottom-color: #01579B;
+    margin-bottom: 8px;
+}
+
+#edu .sectionTitle {
+/*    color: #5b968d;*/
+    color: #00695C;
+    border-bottom-color: #00695C;
+}
+
+#edu .details {
+    color: #4DB6AC;
+}
+
+.entry .details {
+    color: #bebebe;
+}
+
+.entry .details ul {
+    list-style: square;
+    margin-top: 5px;
+}
+
+.entry-name {
+    font-weight: 600;
+    word-wrap:break-word;
+    vertical-align: middle;
+}
+
+.entry .time {
+    float: right;
+    margin-left: 10px;
+    right: 10px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.entry .position {
+    color: #1565C0;
+    padding-right: 2px;
+}
+
+.entry .position.current {
+/*    color: #1d6fde;*/
+    color: #2196F3;
+}
+
+.entry .company {
+    padding-left: 2px;
+}
+
+/** Detail/Summary animation **/
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary:after {
+    float: left;
+    content: "[+]"; 
+    margin: 0px 10px 0 0; 
+    padding: 0; 
+    text-align: center; 
+    width: 20px;
+    font-weight: 100px;
+    color: #bebebe;
+}
+details[open] summary:after {
+  content: "[-]";
+}
+
+
+details[open] SUMMARY ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
+}

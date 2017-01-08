@@ -1,0 +1,11 @@
+@font-face{
+    font-family: Alegreya;
+    src:url(fonts/Alegreya_Sans/AlegreyaSans-Regular.ttf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family: Vidaloka;
+    src:url(fonts/Vidaloka/Vidaloka-Regular.ttf);
+    font-weight:normal;
+}
